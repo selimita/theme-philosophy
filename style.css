@@ -1,0 +1,245 @@
+/*
+Theme Name: Philosophy
+Theme URI:
+Author: LWHH
+Author URI: https://learnwith.hasinhayder.com
+Description: Philosophy by colorlib
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, education
+Text Domain: philosophy
+*/
+
+/* Comments List CSS */
+.commentlist > .comment {
+    padding-left: 0;
+}
+.comment-meta {
+    padding-top: 0;
+}
+.fn {
+    font-family: "metropolis-bold", sans-serif;
+    font-size: 1.9rem;
+    line-height: 1.263;
+    font-style: normal;
+    position: relative;
+    top: -45px;
+    left: 25px;
+    color: #151515;
+}
+em.comment-awaiting-moderation {
+    font-size: 1.9rem;
+    line-height: 1.263;
+    position: relative;
+    left: 90px;
+    color: #151515;
+}
+.fn a {
+    font-family: "metropolis-bold", sans-serif;
+    font-size: 1.9rem;
+    line-height: 1.263;
+    font-style: normal;
+    color: #151515;
+}
+.says {
+    display: none;
+}
+.comment-metadata {
+    margin-left: 90px;
+    margin-top: -45px;
+}
+.comment-metadata a {
+    font-family: "metropolis-regular", sans-serif;
+    font-size: 1.45rem;
+    line-height: 3rem;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.7);
+}
+.comment-metadata span.edit-link a {
+    margin-left: 12px;
+    color: #0054a5;
+    font-family: "metropolis-semibold", sans-serif;
+}
+.comment-author.vcard img {
+    margin-top: 0.6rem;
+    height: 6rem;
+    width: 6rem;
+    border-radius: 100%;
+}
+.comment-content {
+    clear: both;
+    padding: 0;
+    margin-left: 90px;
+    margin-top: -48px;
+}
+.reply {
+    margin-top: -20px;
+}
+.reply a {
+    margin-left: 90px;
+    font-family: "metropolis-semibold", sans-serif;
+}
+
+/* Comments Form CSS */
+#respond h3 {
+    display: none;
+}
+p.logged-in-as {
+    display: none;
+}
+p.comment-notes {
+    display: none;
+}
+#commentform textarea {
+    min-height: 25rem;
+    width: 100%;
+}
+#commentform input {
+    width: 100%;
+}
+#commentform label {
+    display: none;
+}
+p.comment-form-cookies-consent {
+    display: none;
+}
+p.form-submit input {
+    background: #000000;
+    border-color: #000000;
+    color: #FFFFFF;
+    transition: .3s;
+}
+p.form-submit input:hover {
+    background: #0054a5;
+    border-color: #0054a5;
+}
+
+
+/* Contact Form CSS */
+fieldset .form-field {
+    margin-bottom: -75px;
+}
+
+
+
+
+/* WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+ 
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+ 
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+ 
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+ 
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+ 
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+ 
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+ 
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+ 
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+ 
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+ 
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+ 
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+ 
+/* Text meant only for screen readers. */
+.screen-reader-text {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute !important;
+    width: 1px;
+    word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+ 
+.screen-reader-text:focus {
+    background-color: #eee;
+    clip: auto !important;
+    clip-path: none;
+    color: #444;
+    display: block;
+    font-size: 1em;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000;
+    /* Above WP toolbar. */
+}
+
+/* MUST Have CSS */
+.sticky {
+    visibility: inherit;
+}
+.gallery-caption {
+    visibility: inherit;
+}
+.bypostauthor {
+    visibility: hidden;
+}
